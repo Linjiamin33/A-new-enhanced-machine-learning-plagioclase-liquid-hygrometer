@@ -107,7 +107,7 @@ Update the file path in the code to point to your dataset. dataFile = '/path/to/
 You can adjust the Data Expansion Multipliers, Number of Markov chains on your preferences to find higher quality extended datasets.
 
 #### Save the Output: 
-The script saves the resulting plots as a table. Make sure to specify your desired file path in the code where the table will be saved.
+The script saves the augmented result as a table. Make sure to specify your desired file path in the code where the table will be saved.
 
 ### Usage Notes
 #### Running the Code
