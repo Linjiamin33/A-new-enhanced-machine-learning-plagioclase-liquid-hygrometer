@@ -110,12 +110,8 @@ Once the model is trained, it can be used to predict magmatic H2O content in dif
 <p>This code focuses on augmenting the data using the Markov chain Monte Carlo method. </p>
 
 Steps to Use:
-#### Prepare the Dataset: 
-<p>Ensure that your dataset includes columns for geochemical data of plagioclase and silicate melts in equilibrium with it, 
- errors in EMPA of geochemical data, temperature and pressure.</p>
-
-#### Edit File Path: 
-Update the file path in the code to point to your dataset. dataFile = '/path/to/your/dataset.xlsx'
+#### Prepare the Dataset and Input File Path: 
+<p> You need not make any alterations to the code. Simply enter the data which is prepared for calculation into the corresponding cells of the attached Excel file ‘MCMC_Input_Lin2025’ (remember to enter zeros for any missing data). The code will automatically perform the calculations and output the results.</p>
 
 #### Customize Models: 
 You can adjust the Data Expansion Multipliers, Number of Markov chains on your preferences to find higher quality extended datasets.
@@ -131,12 +127,6 @@ To run the codes:
 <li>Navigate to the directory where the codes are stored.</li>
 <li>Launch Your virtual environment(if there is) and spyder(or any other compiler that can run python): </li>
 <li>Open either the plagioclase-liquid hygrometer.py or Data Enhancement_MCMC.py code and run the cells in order.</li>
-</ol>
-
-### Output Files
-<ol>
-<li>plagioclase-liquid hygrometer.py: The output is a machine learning model trained to predict magmatic H2O content based on geochemical data and thermodynamic parameter. You can use this model to make predictions on new data.</li>
-<li>Data Enhancement_MCMC.py: The output is a table file containing initial data and augmented data.</li>
 </ol>
 
 ### File Paths
