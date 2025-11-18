@@ -6,7 +6,8 @@ An enhanced machine learning plagioclase-liquid hygrometer for magmatic H2O esti
 <li>Installation
 <li>Usage
 <ul>
-<li>plagioclase-liquid hygrometer.py</li>
+<li>(with T&P) plagioclase-liquid hygrometer.py</li>
+<li>(without T&P) plagioclase-liquid hygrometer.py</li>
 <li>Data Enhancement_MCMC.py</li>
 </ul>
 </li>
