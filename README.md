@@ -75,11 +75,8 @@ Required Python libraries:
 ### 1. (with T&P) plagioclase-liquid hygrometer.py
 This code is designed to predict magmatic H2O content in different tectonic settings from geochemical measurements using geochemical elemental data and thermodynamic parameters. Follow the steps below to run the code successfully:
 
-#### Prepare the Dataset: 
-<p>Ensure you have a .xlsx file with geochemical data of plagioclase and silicate melts in equilibrium with it and temperature and pressure for magmatic H2O content estimation. The geochemical data should include various major elements (such as SiO₂, TiO₂, Al₂O₃, etc.) with proper order (see Table S1) as input features and a column labeled H2O for the target variable. 
-
-#### Input File Path: 
-<p>You need not make any alterations to the input path. Simply enter the required data into the corresponding cells of the attached Excel file ‘Input_Lin2025’ (remember to enter zeros for any missing data). The code will automatically perform the calculations and output the results.</p>
+#### Prepare the Dataset and Input File Path: 
+<p> You need not make any alterations to the code. Simply enter the data which is prepared for calculation into the corresponding cells of the attached Excel file ‘Input_Lin2025’ (remember to enter zeros for any missing data). The code will automatically perform the calculations and output the results.</p>
   
 #### Run the Code: The code will:
 <ul>
@@ -97,11 +94,8 @@ Once the model is trained, it can be used to predict magmatic H2O content in dif
 ### 2. (without T&P) plagioclase-liquid hygrometer.py
 This code is designed to predict magmatic H2O content in different tectonic settings from geochemical measurements using geochemical elemental data and thermodynamic parameters. Follow the steps below to run the code successfully:
 
-#### Prepare the Dataset: 
-<p>Ensure you have a .xlsx file with geochemical data of plagioclase and silicate melts in equilibrium with it and temperature and pressure for magmatic H2O content estimation. The geochemical data should include various major elements (such as SiO₂, TiO₂, Al₂O₃, etc.) with proper order (see Table S1) as input features and a column labeled H2O for the target variable. 
-
-#### Input File Path: 
-<p>You need not make any alterations to the input path. Simply enter the required data into the corresponding cells of the attached Excel file ‘Input_Lin2025’ (remember to enter zeros for any missing data). The code will automatically perform the calculations and output the results.</p>
+#### Prepare the Dataset and Input File Path: 
+<p> You need not make any alterations to the code. Simply enter the data which is prepared for calculation into the corresponding cells of the attached Excel file ‘Input_Lin2025’ (remember to enter zeros for any missing data). The code will automatically perform the calculations and output the results.</p>
   
 #### Run the Code: The code will:
 <ul>
