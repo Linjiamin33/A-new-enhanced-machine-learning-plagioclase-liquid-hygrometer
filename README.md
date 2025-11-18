@@ -126,7 +126,7 @@ To run the codes:
 <li>Clone this repository or download the codes.</li>
 <li>Navigate to the directory where the codes are stored.</li>
 <li>Launch Your virtual environment(if there is) and spyder(or any other compiler that can run python): </li>
-<li>Open either the plagioclase-liquid hygrometer.py or Data Enhancement_MCMC.py code and run the cells in order.</li>
+<li>Open the code you need and run the cells in order.</li>
 </ol>
 
 ### File Paths
