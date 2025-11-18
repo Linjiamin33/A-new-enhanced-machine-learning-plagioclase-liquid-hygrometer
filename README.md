@@ -72,14 +72,14 @@ Required Python libraries:
 </ol>
 
 ## Instructions
-### 1. plagioclase-liquid hygrometer.py
+### 1. (with T&P) plagioclase-liquid hygrometer.py
 This code is designed to predict magmatic H2O content in different tectonic settings from geochemical measurements using geochemical elemental data and thermodynamic parameters. Follow the steps below to run the code successfully:
 
 #### Prepare the Dataset: 
 <p>Ensure you have a .xlsx file with geochemical data of plagioclase and silicate melts in equilibrium with it and temperature and pressure for magmatic H2O content estimation. The geochemical data should include various major elements (such as SiO₂, TiO₂, Al₂O₃, etc.) with proper order (see Table S1) as input features and a column labeled H2O for the target variable. 
 
-#### Edit File Path: 
-<p>In the code, update the dataFile path of train dataset and target dataset to point to your dataset. Example: training_data_path = '/path/to/your/dataset.xlsx'</p>
+#### Input File Path: 
+<p>You need not make any alterations to the input path. Simply enter the required data into the corresponding cells of the attached Excel file ‘Input_Lin2025’ (remember to enter zeros for any missing data). The code will automatically perform the calculations and output the results.</p>
   
 #### Run the Code: The code will:
 <ul>
@@ -93,7 +93,29 @@ You can modify the machine learning workflow, such as performing hyperparameter 
 #### Results: 
 Once the model is trained, it can be used to predict magmatic H2O content in different tectonic settings. You can save the trained model and use it in future predictions.
 
-### 2. Data Enhancement_MCMC.py
+## Instructions
+### 2. (without T&P) plagioclase-liquid hygrometer.py
+This code is designed to predict magmatic H2O content in different tectonic settings from geochemical measurements using geochemical elemental data and thermodynamic parameters. Follow the steps below to run the code successfully:
+
+#### Prepare the Dataset: 
+<p>Ensure you have a .xlsx file with geochemical data of plagioclase and silicate melts in equilibrium with it and temperature and pressure for magmatic H2O content estimation. The geochemical data should include various major elements (such as SiO₂, TiO₂, Al₂O₃, etc.) with proper order (see Table S1) as input features and a column labeled H2O for the target variable. 
+
+#### Input File Path: 
+<p>You need not make any alterations to the input path. Simply enter the required data into the corresponding cells of the attached Excel file ‘Input_Lin2025’ (remember to enter zeros for any missing data). The code will automatically perform the calculations and output the results.</p>
+  
+#### Run the Code: The code will:
+<ul>
+  <li>Load the dataset and extract features (geochemical elements) and the target (H2O).</li>
+  <li>Train a hygrometer model to predict magmatic H2O content based on the geochemical inputs.</li>
+</ul>
+
+#### Optional: 
+You can modify the machine learning workflow, such as performing hyperparameter tuning or cross-validation to optimize the model further.
+
+#### Results: 
+Once the model is trained, it can be used to predict magmatic H2O content in different tectonic settings. You can save the trained model and use it in future predictions.
+
+### 3. Data Enhancement_MCMC.py
 <p>This code focuses on augmenting the data using the Markov chain Monte Carlo method. </p>
 
 Steps to Use:
