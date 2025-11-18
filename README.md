@@ -12,7 +12,6 @@ An enhanced machine learning plagioclase-liquid hygrometer for magmatic H2O esti
 </ul>
 </li>
 <li>Data Requirements</li>
-<li>Output Files</li>
 <li>Troubleshooting</li>
 <li>License</li>
 </ul>
