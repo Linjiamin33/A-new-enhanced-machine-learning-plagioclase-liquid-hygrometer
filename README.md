@@ -58,15 +58,12 @@ Required Python libraries:
   <li>spyder</li>
 </ul>
 
-### Additional Data Requirements
-<ul>
-  <li>The hygrometer require datasets in .xlsx format. Ensure that your data includes the relevant columns, such as geochemical elements, temperature and pressure.</li>
-</ul>
-
 ## Repository Contents
 <ol>
-<li>plagioclase-liquid hygrometer.py: </li>
-<p>This code builds a machine learning hygrometer to predict magmatic H2O content in different tectonic settings using geochemical elemental data and thermodynamic parameters.</p>
+<li> (with T&P) plagioclase-liquid hygrometer.py: </li>
+<p>This code builds a machine learning hygrometer to predict magmatic H2O content in different tectonic settings using composition of plagioclase-melt pairs and thermodynamic parameters.</p>
+<li> (without T&P) plagioclase-liquid hygrometer.py: </li>
+<p>This code builds a machine learning hygrometer to predict magmatic H2O content in different tectonic settings using only composition of plagioclase-melt pairs data.</p>
 <li>Data Enhancement_MCMC.py:</li> 
 <p>This code augments the data using the Markov chain Monte Carlo method.</p>
 </ol>
